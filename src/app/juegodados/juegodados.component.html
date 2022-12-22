@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="container-dados">
+    <app-dado [valor]="valor1"></app-dado>
+    <app-dado [valor]="valor2"></app-dado>
+    <app-dado [valor]="valor3"></app-dado>
+  </div>
+  <div class="info-container">
+    <button (click)="tirar()">Tirar</button>
+    <p class="resultado">Resultado: {{ resultado }}</p>
+  </div>
+</div>
